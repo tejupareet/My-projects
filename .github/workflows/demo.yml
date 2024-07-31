@@ -6,5 +6,5 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
-        run: gcc mycode.c
+        run: gcc myccode.c
         run: a.out
