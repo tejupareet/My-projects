@@ -5,6 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: echo "Hello World!"
-        run: gcc myccode.c
-        run: a.out
+        run: gcc myccode.c ./a.out
+        
